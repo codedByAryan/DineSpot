@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://dinespot-backend-bv9s.onrender.com/api"
+  baseURL: "https://dinespot-backend-091w.onrender.com/api"
 });
 
 // Token automatically attach
