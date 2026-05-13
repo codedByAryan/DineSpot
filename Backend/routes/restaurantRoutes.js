@@ -13,15 +13,15 @@ import protect from "../middleware/authMiddleware.js";
 
 const router = express.Router();
 
-// Owner
+// ✅ Static routes FIRST
+router.get("/", getRestaurants);
+router.get("/owner", protect, getOwnerRestaurants);  // moved up
+
+// ✅ Dynamic :id routes LAST
+router.get("/:id", getRestaurantById);
 router.post("/", protect, addRestaurant);
 router.put("/:id", protect, updateRestaurant);
 router.delete("/:id", protect, deleteRestaurant);
-router.get("/owner", protect, getOwnerRestaurants);
 router.put("/:id/menu", protect, updateRestaurantMenu);
-
-// User
-router.get("/", getRestaurants);
-router.get("/:id", getRestaurantById);
 
 export default router;
