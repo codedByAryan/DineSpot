@@ -158,15 +158,6 @@ CLIENT_URL=http://localhost:3000
 
 ---
 
-## 📸 Screenshots  
-
-- Homepage  
-- Restaurant Listing  
-- Booking Page  
-- Dashboard  
-
----
-
 ## 📡 API Documentation  
 
 ### Base URL  
@@ -211,7 +202,7 @@ git push origin feature/your-feature-name
 
 Aryan Chauhan 
 - GitHub: https://github.com/codedByAryan  
-- Email: your-email@example.com  
+- Email: your-aryanchauhan3229@gmail.com  
 
 ---
 
